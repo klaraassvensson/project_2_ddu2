@@ -1,0 +1,19 @@
+#remove{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    margin: 10px;
+}
+.randomNumber{
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    min-width: 60px;
+}
+.matchMarked{
+    background-color: rgb(227, 153, 93);
+}
+.removed{
+    background-color: rgb(209, 67, 67);
+}

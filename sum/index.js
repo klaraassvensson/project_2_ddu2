@@ -1,6 +1,3 @@
-// totalen av alla 
-const numbersDiv = document.getElementById("numbers");
-const allNumbers = document.getElementById("numbers").children;
 const sumAllDOM = document.getElementById("sumResultAll");
 const sumMarkedDOM = document.getElementById("sumResultMarked");
 const resetButton = document.getElementById("reset");

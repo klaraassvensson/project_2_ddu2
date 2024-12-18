@@ -21,15 +21,15 @@ buttonDOM.addEventListener("click", function (){
     createNumbersGrid(inputDOM.value); 
 })
 
-function randomInt (max){
-    return Math.floor(Math.random() * max)
+function randomInt (){
+    return Math.floor(Math.random() * 100)
 }
 
 function createNumbersGrid(n){
     if (n > 99) return;
     numbersDOM.innerHTML = ""
     for (let i = 0; i < n; i++ ){
-        let randomNumber = randomInt(100)
+        let randomNumber = randomInt()
         const numberDiv = document.createElement("div");
         numbersDOM.appendChild(numberDiv);
         numberDiv.textContent = randomNumber
