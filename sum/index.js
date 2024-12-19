@@ -27,11 +27,7 @@ buttonDOM.addEventListener("click", function (){
 
 numbersDiv.addEventListener("click", function(event){
     const numberDiv = event.target;
-    if(numberDiv.classList.contains("marked")){
-        numberDiv.classList.remove("marked")
-    } else  {
-        numberDiv.classList.add("marked")
-    }
+    numberDiv.classList.toggle("marked");
     addMarked ();
 })
 
