@@ -4,7 +4,7 @@
 .sum {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     margin: 10px 0;
     gap: 10px;
 }
