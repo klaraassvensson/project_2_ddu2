@@ -27,8 +27,10 @@ buttonDOM.addEventListener("click", function (){
 
 numbersDiv.addEventListener("click", function(event){
     const numberDiv = event.target;
-    numberDiv.classList.toggle("marked");
-    addMarked ();
+    if(numberDiv.classList.contains("number")){
+        numberDiv.classList.toggle("marked");
+        addMarked ();
+    }
 })
 
 resetButton.addEventListener("click", function (){
